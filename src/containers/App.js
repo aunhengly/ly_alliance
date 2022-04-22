@@ -34,6 +34,7 @@ import {productArray} from '../components/productArray';
  		return(
 			<div className='tc'>
 				<h1 className='f1'>Welcome to LY Alliance</h1>
+				<p>We are under developing</p>
 				<SearchBox searchChange = {this.onSearchChange} />
 				<Scroll>
 					<CardList productArray={filteredItems}/>
